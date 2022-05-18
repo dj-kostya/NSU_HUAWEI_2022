@@ -1,0 +1,18 @@
+pipeline_ops,Batch(id=0),Generator(id=1)
+op_names,Batch,Generator
+op_ids,0,1
+num_workers,8,1
+queue_average_size,43.38,0.0
+queue_utilization_pct,67.78,0.0
+queue_empty_freq_pct,0.0,100.0
+children_ids,[1],[]
+parent_id,-1,0
+avg_cpu_pct,0.0,0.0
+per_batch_time,216.434
+per_pipeline_time,-1
+per_push_queue_time,-1
+avg_cpu_pct_per_worker,0.0,0.0
+cpu_analysis_details,Batch(id=0) is using 0.0% CPU per worker. Using num_parallel_workers=8 might not bring as much benefit due to low CPU usage per worker.
+queue_analysis_details,Leaf op Generator(id=1) is using 0.0% of its output queue.Setting num_parallel_workers>1 might speed up I/O.
+bottleneck_warning,Batch(id=0)
+bottleneck_suggestion,Batch(id=0) has low CPU utilization per worker of 0.0% and abnormal queue usage. Try increasing prefetch_size.

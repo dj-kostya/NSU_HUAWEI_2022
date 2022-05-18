@@ -1,0 +1,13 @@
+op_full_name, MFLOPs(10^6), GFLOPS(10^9), FLOPS utilization(%) 
+Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/MatMul-op26, 0.002368, 0.5356738904221143, 0.0002421847377848824
+Default/network-WithLossCell/_loss_fn-MSELoss/Sub-op6, 0.000224, 0.1880141010575796, 8.500348174261231e-05
+Default/network-WithLossCell/_loss_fn-MSELoss/Square-op8, 0.000224, 0.20509064273942537, 9.272399574084263e-05
+Default/AtomicAddrClean-op28, 0.006336, 5.483340545218519, 0.002479085532958315
+Default/network-WithLossCell/_loss_fn-MSELoss/ReduceMean-op9, 0.000352, 0.32370792716571606, 0.00014635232528831924
+Default/Mul-op7, 0.000224, 0.1990934139187628, 9.001257501390824e-05
+Default/AtomicAddrClean-op29, 0.006336, 5.353612167300384, 0.0024204337417265192
+Gradients/Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/gradMatMul/MatMul-op12, 0.000352, 0.29201924672307944, 0.00013202548408704042
+Default/AtomicAddrClean-op30, 0.006336, 5.3149903531582945, 0.0024029723457204386
+Gradients/Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/gradBiasAdd/BiasAddGrad-op11, 0.00031999999999999997, 0.27324737426351337, 0.0001235384902450057
+Default/optimizer-Momentum/ApplyMomentum-op16, 0.000384, 0.3183287739368317, 0.00014392034411929962
+Default/optimizer-Momentum/ApplyMomentum-op18, 0.000384, 0.3198667221990837, 0.0001446156693970105
